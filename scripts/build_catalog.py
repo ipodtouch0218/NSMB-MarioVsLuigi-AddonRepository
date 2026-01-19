@@ -17,7 +17,7 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         "Version": addonDef["Version"],
         "FileName": zip_path.name
     })
-    
-    
+
+print(f"Found {len(catalog)} addon(s) to write to catalog.json")    
 with open("catalog.json", "w", encoding="utf-8") as f:
     json.dump(catalog, f, indent=2)
