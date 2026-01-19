@@ -1,5 +1,6 @@
 import zipfile
 import json
+import os
 from pathlib import Path
 
 addons_dir = Path("addons")
@@ -15,7 +16,8 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         "DisplayName": addonDef["DisplayName"],
         "Author": addonDef["Author"],
         "Version": addonDef["Version"],
-        "FileName": zip_path.name
+        "Size": os.path.getsize(zip_path)
+        "DownloadUrl": f"https://github.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/raw/refs/heads/main/addons/{zip_path.name}"
     })
 
 print(f"Found {len(catalog)} addon(s) to write to catalog.json")    
