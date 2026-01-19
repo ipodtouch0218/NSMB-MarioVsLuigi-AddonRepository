@@ -4,13 +4,15 @@
     "DisplayName": "Underground Desert Map",
     "Author": "biobak",
     "Version": "v0.2",
-    "FileName": "UndergroundDesert-v0.2.mvladdon"
+    "Size": 7255734,
+    "DownloadUrl": "https://github.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/raw/refs/heads/main/addons/UndergroundDesert-v0.2.mvladdon"
   },
   {
     "ReleaseGuid": "a722331d-2b81-40ac-b552-bac98ac326c8",
     "DisplayName": "Mountain",
     "Author": "vindollar",
     "Version": "v1.2",
-    "FileName": "Mountain-v1.2.mvladdon"
+    "Size": 7233471,
+    "DownloadUrl": "https://github.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/raw/refs/heads/main/addons/Mountain-v1.2.mvladdon"
   }
 ]
