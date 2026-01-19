@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - addons/**/*.mvladdon
+  workflow_dispatch:
       
 jobs:
   update-catalog:
