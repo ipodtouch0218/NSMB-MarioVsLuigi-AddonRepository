@@ -16,7 +16,7 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         "Author": addonDef["Author"],
         "Version": addonDef["Version"],
         "Size": os.path.getsize(zip_path),
-        "DownloadUrl": f"https://github.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/raw/refs/heads/main/addons/{zip_path.name}"
+        "DownloadUrl": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/{zip_path.name}"
     }
 
 print(f"Found {len(catalog)} addon(s) to write to catalog.json")    
