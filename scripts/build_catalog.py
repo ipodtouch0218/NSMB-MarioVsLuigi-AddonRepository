@@ -5,7 +5,7 @@ import hashlib
 from pathlib import Path
 
 addons_dir = Path("addons")
-platforms = {
+supported_platforms = {
     "Win32": "StandaloneWindows",
     "MacOS": "StandaloneOSX",
     "Linux": "StandaloneLinux64",
@@ -21,12 +21,14 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         with z.open("addon.json") as f:
             addonDef = json.load(f)
     
-    filename = os.path.basename(zip_path)
+    filename = zip_path.name
     platform = filename.split("-")[-1].replace(".mvladdon", "")
     
-    if platform not in platforms:
+    if platform not in supported_platforms:
         print(f"Unknown platform name {platform} in {filename}... skipping.")
         continue
+    
+    build_target = supported_platforms[platform]
     
     file_size = os.path.getsize(zip_path)
     with open(zip_path, 'rb', buffering=0) as f:
@@ -39,8 +41,9 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         "artifacts": {}
     })
     
-    catalog_entry["artifacts"][platform] = {
+    catalog_entry["artifacts"][build_target] = {
         "url": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/{zip_path.name}",
+        "test": zip_path
         "size": file_size,
         "sha256": file_hash
     }
