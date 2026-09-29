@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - addons/**/*.mvladdon
+      - scripts/build_catalog.py
   workflow_dispatch:
 
 permissions:
