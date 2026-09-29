@@ -4,33 +4,39 @@
     "author": "biobak",
     "version": "v1.2",
     "artifacts": {
-      "Win32": {
+      "StandaloneWindows": {
         "url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v1.2-Win32.mvladdon",
+        "test": "addons/UndergroundDesert-v1.2/UndergroundDesert-v1.2-Win32.mvladdon",
         "size": 3703783,
         "sha256": "65785b4035d42cf7a6fc23a94c0f93c913807247833fc7863aaeb2c7b39b0997"
       },
-      "MacOS": {
+      "StandaloneOSX": {
         "url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v1.2-MacOS.mvladdon",
+        "test": "addons/UndergroundDesert-v1.2/UndergroundDesert-v1.2-MacOS.mvladdon",
         "size": 3679423,
         "sha256": "d026f41dd7ca3724c868b7d3d1700a2f8e453f3dfd1342ce89257f6066a9f1ca"
       },
-      "Linux": {
+      "StandaloneLinux64": {
         "url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v1.2-Linux.mvladdon",
+        "test": "addons/UndergroundDesert-v1.2/UndergroundDesert-v1.2-Linux.mvladdon",
         "size": 3723151,
         "sha256": "91c7c16e236b28c60de4ade9c947bd58bc8fed24d2630216877a7d850733338a"
       },
       "WebGL": {
         "url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v1.2-WebGL.mvladdon",
+        "test": "addons/UndergroundDesert-v1.2/UndergroundDesert-v1.2-WebGL.mvladdon",
         "size": 4346432,
         "sha256": "433554877a7e0ebd90567ddcced58e0b40fa70e6f3855cae62e8d02a949e12b3"
       },
       "Android": {
         "url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v1.2-Android.mvladdon",
+        "test": "addons/UndergroundDesert-v1.2/UndergroundDesert-v1.2-Android.mvladdon",
         "size": 3730478,
         "sha256": "3c37e199eecc648b7f44449f2a9abc82e4848bff5a07d87993ba4d44fcc99aee"
       },
       "iOS": {
         "url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v1.2-iOS.mvladdon",
+        "test": "addons/UndergroundDesert-v1.2/UndergroundDesert-v1.2-iOS.mvladdon",
         "size": 3680429,
         "sha256": "9741e47b78759588f486371d5d9ec4806b10a8daea699384636d3a15dcccd0df"
       }
