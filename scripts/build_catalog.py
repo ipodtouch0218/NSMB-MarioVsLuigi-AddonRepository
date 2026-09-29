@@ -39,7 +39,7 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
     with open(zip_path, 'rb', buffering=0) as f:
         file_hash = hashlib.file_digest(f, 'sha256').hexdigest()
     
-    catalog_entry["Artifacts"][platform] = {
+    catalog_entry["artifacts"][platform] = {
         "size": file_size,
         "sha256": file_hash,
         "url": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/{zip_path.name}"
