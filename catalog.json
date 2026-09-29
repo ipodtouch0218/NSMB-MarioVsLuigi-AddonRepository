@@ -1,1 +1,14 @@
-{}
+{
+  "e889d26c-d7fd-4cae-a32e-a08d354023a9": {
+    "displayName": "Underground Desert Map",
+    "author": "biobak",
+    "version": "v1.1",
+    "artifacts": {
+      "Win32": {
+        "url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v1.1-Win32.mvladdon",
+        "size": 3703685,
+        "sha256": "0531d2c83ee54c996295bfa9b36a903542fc15fd7fbba28fcb1a57010069e4cc"
+      }
+    }
+  }
+}
