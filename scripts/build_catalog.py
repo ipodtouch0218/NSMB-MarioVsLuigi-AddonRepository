@@ -21,13 +21,6 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         with z.open("addon.json") as f:
             addonDef = json.load(f)
     
-    catalog_entry = catalog.get(addonDef["ReleaseGuid"], {
-        "displayName": addonDef["DisplayName"],
-        "author": addonDef["Author"],
-        "version": addonDef["ReleaseVersion"],
-        "artifacts": {}
-    })
-    
     filename = os.path.basename(zip_path)
     platform = filename.split("-")[-1].replace(".mvladdon", "")
     
@@ -39,11 +32,21 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
     with open(zip_path, 'rb', buffering=0) as f:
         file_hash = hashlib.file_digest(f, 'sha256').hexdigest()
     
+    catalog_entry = catalog.get(addonDef["ReleaseGuid"], {
+        "displayName": addonDef["DisplayName"],
+        "author": addonDef["Author"],
+        "version": addonDef["ReleaseVersion"],
+        "artifacts": {}
+    })
+    
     catalog_entry["artifacts"][platform] = {
+        "url": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/{zip_path.name}",
         "size": file_size,
-        "sha256": file_hash,
-        "url": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/{zip_path.name}"
+        "sha256": file_hash
     }
+    
+    catalog[addonDef["ReleaseGuid"]] = catalog_entry
+
 
 print(f"Found {len(catalog)} addon(s) to write to catalog.json")    
 with open("catalog.json", "w", encoding="utf-8") as f:
