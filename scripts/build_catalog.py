@@ -35,16 +35,16 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         file_hash = hashlib.file_digest(f, 'sha256').hexdigest()
     
     catalog_entry = catalog.get(addonDef["ReleaseGuid"], {
-        "displayName": addonDef["DisplayName"],
-        "author": addonDef["Author"],
-        "version": addonDef["ReleaseVersion"],
-        "artifacts": {}
+        "DisplayName": addonDef["DisplayName"],
+        "Author": addonDef["Author"],
+        "Version": addonDef["ReleaseVersion"],
+        "Artifacts": {}
     })
     
     catalog_entry["artifacts"][build_target] = {
-        "url": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/{zip_path}",
-        "size": file_size,
-        "sha256": file_hash
+        "Url": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/{zip_path}",
+        "Size": file_size,
+        "Sha256": file_hash
     }
     
     catalog[addonDef["ReleaseGuid"]] = catalog_entry
