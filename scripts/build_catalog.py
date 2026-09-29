@@ -26,7 +26,7 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         "author": addonDef["Author"],
         "version": addonDef["ReleaseVersion"],
         "artifacts": {}
-    }
+    })
     
     filename = os.path.basename(zip_path)
     platform = filename.split("-")[-1].replace(".mvladdon", "")
