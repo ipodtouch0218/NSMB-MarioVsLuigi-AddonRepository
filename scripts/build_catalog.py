@@ -41,7 +41,7 @@ for zip_path in addons_dir.rglob("*.mvladdon"):
         "Artifacts": {}
     })
     
-    catalog_entry["artifacts"][build_target] = {
+    catalog_entry["Artifacts"][build_target] = {
         "Url": f"https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/{zip_path}",
         "Size": file_size,
         "Sha256": file_hash
