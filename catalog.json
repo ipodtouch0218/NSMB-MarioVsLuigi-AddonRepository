@@ -36,40 +36,40 @@
       }
     }
   },
-  "2ef6d2c2-8f3c-4a46-a69c-c18e76fa88f7": {
+  "c3a3045a-5609-425d-a0c5-2cc297f66d42": {
     "DisplayName": "Underground Desert Map",
     "Author": "biobak",
     "Version": "v2.0",
     "Artifacts": {
       "StandaloneWindows": {
         "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-Win32.mvladdon",
-        "Size": 64365,
-        "Sha256": "7cb2c3077d017ac573d295b1c18c7404d7667815b31b5d26e40ffc4a8eb78df3"
+        "Size": 64361,
+        "Sha256": "a0054f650871c4e8a551f149d697d18730e012ef11d8ca547375e207774268e0"
       },
       "iOS": {
         "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-iOS.mvladdon",
-        "Size": 64408,
-        "Sha256": "e2cf60b909d84ba988fc9c057437784d73a004404317093595957fdcd0b5a93b"
+        "Size": 64429,
+        "Sha256": "50ec58a41ea324c7de4e2d4647b56f2e737656d9ce587c1c3d387d942948fdad"
       },
       "StandaloneOSX": {
         "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-MacOS.mvladdon",
-        "Size": 64989,
-        "Sha256": "09b47d759dc4f1d022eb12109d07f3e5aeed44ec389e9ae0c0272182d77782c3"
+        "Size": 65046,
+        "Sha256": "9b9c6f117925ec8ccb7ee652006c409d25aa0734660769712624d5cfd8f496fc"
       },
       "WebGL": {
         "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-WebGL.mvladdon",
-        "Size": 101957,
-        "Sha256": "dc9ae062977ff97ee7e75931c88754333846f9593bfe8b82efb9453131528ff2"
+        "Size": 101954,
+        "Sha256": "5aaf2cb18ca2d2f055d8c9b7213b8a27779a7c6ae0b20a625b1006f8a04b91eb"
       },
       "StandaloneLinux64": {
         "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-Linux.mvladdon",
-        "Size": 67038,
-        "Sha256": "cf389f2bb80f35c3d185357e1b66b51907270ac467b7f0d50656b4bec6154e12"
+        "Size": 67016,
+        "Sha256": "23b48bd7b8fefcc37485f9c3c6dcf1cf0ca5c81629405877e5bc8ca080397a8d"
       },
       "Android": {
         "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-Android.mvladdon",
-        "Size": 67685,
-        "Sha256": "abf669abff11c1fe0894d2acb9d4e909a83a5a2ad7632b9c755bb8af49394f66"
+        "Size": 67664,
+        "Sha256": "56611b45c7df4144c23690749c7f433c9e76651b8679dd16cdf1ef566187d898"
       }
     }
   }
