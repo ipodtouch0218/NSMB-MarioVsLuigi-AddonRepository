@@ -35,5 +35,42 @@
         "Sha256": "9741e47b78759588f486371d5d9ec4806b10a8daea699384636d3a15dcccd0df"
       }
     }
+  },
+  "2ef6d2c2-8f3c-4a46-a69c-c18e76fa88f7": {
+    "DisplayName": "Underground Desert Map",
+    "Author": "biobak",
+    "Version": "v2.0",
+    "Artifacts": {
+      "StandaloneWindows": {
+        "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-Win32.mvladdon",
+        "Size": 64365,
+        "Sha256": "7cb2c3077d017ac573d295b1c18c7404d7667815b31b5d26e40ffc4a8eb78df3"
+      },
+      "iOS": {
+        "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-iOS.mvladdon",
+        "Size": 64408,
+        "Sha256": "e2cf60b909d84ba988fc9c057437784d73a004404317093595957fdcd0b5a93b"
+      },
+      "StandaloneOSX": {
+        "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-MacOS.mvladdon",
+        "Size": 64989,
+        "Sha256": "09b47d759dc4f1d022eb12109d07f3e5aeed44ec389e9ae0c0272182d77782c3"
+      },
+      "WebGL": {
+        "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-WebGL.mvladdon",
+        "Size": 101957,
+        "Sha256": "dc9ae062977ff97ee7e75931c88754333846f9593bfe8b82efb9453131528ff2"
+      },
+      "StandaloneLinux64": {
+        "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-Linux.mvladdon",
+        "Size": 67038,
+        "Sha256": "cf389f2bb80f35c3d185357e1b66b51907270ac467b7f0d50656b4bec6154e12"
+      },
+      "Android": {
+        "Url": "https://raw.githubusercontent.com/ipodtouch0218/NSMB-MarioVsLuigi-AddonRepository/main/addons/UndergroundDesert-v2.0/UndergroundDesert-v2.0-Android.mvladdon",
+        "Size": 67685,
+        "Sha256": "abf669abff11c1fe0894d2acb9d4e909a83a5a2ad7632b9c755bb8af49394f66"
+      }
+    }
   }
 }
